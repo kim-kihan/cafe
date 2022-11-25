@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/toolbar_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/brown"
+        android:gravity="center"
+        android:minHeight="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:theme="?attr/actionBarTheme"
+        app:titleTextColor="#FFFFFF">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search_fragment_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginVertical="10dp"
+            android:layout_weight="1"
+            android:imeOptions="actionDone"
+            android:orientation="vertical"
+            app:iconifiedByDefault="false"
+            app:queryBackground="@drawable/button_non_color"
+            app:queryHint="검색어를 입력해주세요."
+            app:searchIcon="@drawable/search">
+
+        </androidx.appcompat.widget.SearchView>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/mic" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    </ListView>
+
+
+</LinearLayout>

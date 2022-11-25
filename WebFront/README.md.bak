@@ -1,0 +1,112 @@
+<<<<<<< HEAD
+# o2o-mobile-cafe
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# [ Web Frontend PJT ]
+
+
+
+# F01 상품 목록 출력 
+1. 완료 여부 : N 
+2. 페이지 캡쳐
+-
+
+
+# F02 회원 정보 추가 
+1. 완료 여부 : N 
+2. 페이지 캡쳐
+-
+
+
+# F03 회원 아이디 중복 확인 
+1. 완료 여부 : N 
+2. 페이지 캡쳐
+-
+
+
+# F04 회원 로그인 
+1. 완료 여부 : N 
+2. 페이지 캡쳐
+-
+
+
+# F05 회원 로그아웃 
+1. 완료 여부 : N 
+2. 페이지 캡쳐
+-
+
+
+# F06 상품 주문 
+1. 완료 여부 : N 
+2. 페이지 캡쳐
+-
+
+
+# F07 회원 정보 조회 
+1. 완료 여부 : N 
+2. 페이지 캡쳐
+-
+
+
+# F08 주문 상세 조회 
+1. 완료 여부 : N 
+2. 페이지 캡쳐
+-
+
+
+# F09 상품별 정보 조회 
+1. 완료 여부 : N 
+2. 페이지 캡쳐
+-
+
+# F10 상품별 상품평가 추가 (추가)
+1. 완료 여부 : N 
+2. 페이지 캡쳐
+-
+
+
+# F11 상품별 상품평가 조회 (추가)
+1. 완료 여부 : N 
+2. 페이지 캡쳐
+-
+
+
+# F12 상품별 상품평가 삭제 (추가)
+1. 완료 여부 : N 
+2. 페이지 캡쳐
+-
+
+
+# F13 상품별 상품평가 수정 (추가)
+1. 완료 여부 : N 
+2. 페이지 캡쳐
+-
+
+
+# F14 회원 등급 관리 (심화)
+1. 완료 여부 : N 
+2. 페이지 캡쳐
+-
+>>>>>>> 1b3e43c8afed217039e5ca2dffd6ef78722c840c

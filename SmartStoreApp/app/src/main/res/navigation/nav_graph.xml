@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/home_fragment">
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="com.ssafy.smartstore.HomeFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_fragment_to_order_fragment"
+            app:destination="@id/order_fragment" />
+        <action
+            android:id="@+id/action_home_fragment_to_page_fragment"
+            app:destination="@id/page_fragment" />
+        <action
+            android:id="@+id/action_home_fragment_to_search_fragment"
+            app:destination="@id/search_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/order_fragment"
+        android:name="com.ssafy.smartstore.OrderFragment"
+        android:label="fragment_store"
+        tools:layout="@layout/fragment_order">
+        <action
+            android:id="@+id/action_order_fragment_to_home_fragment"
+            app:destination="@id/home_fragment" />
+        <action
+            android:id="@+id/action_order_fragment_to_page_fragment"
+            app:destination="@id/page_fragment" />
+        <action
+            android:id="@+id/action_order_fragment_to_search_fragment"
+            app:destination="@id/search_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/page_fragment"
+        android:name="com.ssafy.smartstore.MyPageFragment"
+        android:label="fragment_store"
+        tools:layout="@layout/fragment_my_page">
+        <action
+            android:id="@+id/action_page_fragment_to_home_fragment"
+            app:destination="@id/home_fragment" />
+        <action
+            android:id="@+id/action_page_fragment_to_order_fragment"
+            app:destination="@id/order_fragment" />
+        <action
+            android:id="@+id/action_page_fragment_to_search_fragment"
+            app:destination="@id/search_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/search_fragment"
+        android:name="com.ssafy.smartstore.SearchFragment"
+        android:label="fragment_store"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_search_fragment_to_home_fragment"
+            app:destination="@id/home_fragment" />
+        <action
+            android:id="@+id/action_search_fragment_to_order_fragment"
+            app:destination="@id/order_fragment" />
+        <action
+            android:id="@+id/action_search_fragment_to_page_fragment"
+            app:destination="@id/page_fragment" />
+    </fragment>
+
+</navigation>

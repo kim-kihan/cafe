@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "337488502465",
+    "project_id": "smartui-ee0be",
+    "storage_bucket": "smartui-ee0be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337488502465:android:b58fcdf8f2b135d8a1be40",
+        "android_client_info": {
+          "package_name": "com.ssafy.smartstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337488502465-8r25uhopa98k9iaitaj7j8vnp8ue2ean.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ssafy.smartstore",
+            "certificate_hash": "6ab9a8a0a2ba2eda5580552cc4cc7a3859777446"
+          }
+        },
+        {
+          "client_id": "337488502465-i2jh9prv74kvijos5l6ao5pv7rfss336.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnSyG9bcxqdw29eqwjE5zNqZMRxwuIdT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337488502465-i2jh9prv74kvijos5l6ao5pv7rfss336.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

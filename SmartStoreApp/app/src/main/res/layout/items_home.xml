@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_page_order_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:background="@drawable/button_non_color"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/home_order_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="25dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/img_item"
+        android:src="@drawable/coffee1" />
+
+    <TextView
+        android:id="@+id/home_order_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/l_regular"
+        android:text="아메리카노 외 3잔"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/home_order_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/l_regular"
+        android:text="Won. 25,000"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/home_order_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/l_regular"
+        android:text="2021.05.06"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/home_cart_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/shopping_cart" />
+
+</LinearLayout>

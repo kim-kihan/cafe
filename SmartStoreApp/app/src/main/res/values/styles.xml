@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:colorBackground">#F7F6F2</item>
+        <item name="android:textColor">@color/coffee_dark_brown</item>
+        <item name="android:editTextColor">@color/coffee_dark_brown</item>
+        <item name="android:textColorHint">@color/gray</item>
+    </style>
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">#F7F6F2</item>
+    </style>
+</resources>

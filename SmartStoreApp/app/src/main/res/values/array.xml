@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="itemList">
+        <item>선택안함</item>
+        <item>조회순</item>
+        <item>판매순</item>
+        <item>신상순</item>
+        <item>평점순</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>선택안함</item>
+        <item>Man</item>
+        <item>Woman</item>
+    </string-array>
+
+</resources>

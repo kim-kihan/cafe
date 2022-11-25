@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:src="@drawable/coffee_background"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="주문가능시간"
+        android:textColor="@color/coffee_dark_brown"
+        android:textSize="40sp"
+        android:fontFamily="@font/tway_air"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="주중  07:00 ~ 20:30"
+        android:fontFamily="@font/tway_air"
+        android:textColor="@color/brown"
+        android:textSize="20sp"
+        android:layout_marginLeft="40sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="주말  09:00 ~ 23:00"
+        android:fontFamily="@font/tway_air"
+        android:textColor="@color/brown"
+        android:textSize="20sp"
+        android:layout_marginLeft="40sp"/>
+
+</LinearLayout>
